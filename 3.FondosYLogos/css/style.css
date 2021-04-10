@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+nav{
+    margin-bottom: 50px;
+}
+.enlaces{
+    list-style: none;
+    padding-left: 0%;
+}
+#vinculo{
+    text-decoration: none;
+    color: black;
+}
+#fondo{
+    background-image: 
+    linear-gradient(
+      180deg,
+      rgba(179, 177, 142, 0),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url('../img/lemon-pie.png') ;
+    background-size: cover;
+    background-position: 0% 100%; 
+    background-repeat: no-repeat;
+    padding-top: 220px;
+    color: white;
+}  
+#fondo::before{
+    content: "";
+    position: absolute;
+}
+      /*Seccion del titulo  */
+#fondo h1{
+    font-size: 60px; 
+    font-weight: 700;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+/* MAIN */
+.seccion_info{
+    color: rgb(51, 50, 50);
+}
+.seccion_titulo_ingredientes{
+    font-weight: 700;
+    font-size: 25px;
+}
+.seccion_titulo{
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 15px;
+}
+.seccion_subtitulo{
+    font-style: italic;
+    font-weight: 600;
+}
+
+#merengue{
+    color: orangered;
+}
+
+footer{
+    background-color: gainsboro;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center; 
+}
+.git{
+    color: black;
+}
+.git:hover{
+    color:white;
+    border: 3px solid yellow;
+    border-radius: 100px;
+}
