@@ -1,0 +1,41 @@
+header{
+    background-color: #dddddd;
+    text-align: center;
+    font-style: Calibri, Arial, Helvetica, sans-serif;
+    color: #1F497D;
+}
+h1{
+    background-color: #BFBFBF;
+    font-style: Calibri, Arial, Helvetica, sans-serif;
+}
+h2{
+    background-color: #BFBFBF;
+    font-size: 18px;
+    font-style: Calibri, Arial, Helvetica, sans-serif;
+    color:rgba(139, 0, 0, 0.8) ;
+}
+footer{
+    background-color: #1F497D;
+    font-size: 24px;
+    font-style: Calibri, Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:white;
+}
+span{
+    font-style: italic;
+    font-weight: bold;
+    font-style: Calibri, Arial, Helvetica, sans-serif;
+}
+section{
+    text-align:justify;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+dt{
+    font-weight: bold;
+    font-style: italic;
+}
+#textonormal{
+    font-style: normal;
+    font-weight: 100;
+}
