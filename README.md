@@ -7,18 +7,16 @@ Proyectos curso Frontend I - Digital-House - Certified-Tech-Developer - Daniel R
 
 
 
-Lenguajes
+**Lenguajes**
 
    - HTML
    - CSS
    - Markdown
 
-Autor
+**Autor**
 
    Daniel Steven Romero Rodríguez
    
-   
    Bogotá Colombia - 2021
-   
    
    Mail: dsromeror@unal.edu.co / dsromeror5@gmail.com
