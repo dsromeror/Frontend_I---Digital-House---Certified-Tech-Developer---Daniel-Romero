@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+/* Descuentos */
+#descuentos{
+    background-color: rgb(28,209,176,1);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    font-style: normal;
+    height: 61px;
+    padding-left: 63px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    background-color: rgb(0,102,159,1);
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 84px;
+    font-style: normal;
+    height: 162px;
+    padding-left: 63px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* CARTAS GRANDES */
+.more{
+    color: #00669F;
+    position: fixed;
+    font-size: 120px;
+    right: 100px;
+    bottom: 120px;
+    transition: color 0.6s ease 0s;
+}
+.more:hover{
+    color: #ff7300;
+}
+main{ /* Centrar todas las cartas */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{ /* Margenes entre extremos */
+    margin-top: 5px;
+    margin-bottom: 228px;
+}
+
+.cards{ /* Margenes entre cartas */
+    margin: 70px 0px;
+}
+/*CUADRO SUPERIOR*/
+.superior_batman, .superior_ww, .superior_sman{
+    width: 700px;
+    height: 406px;
+    background-size: cover;
+    border-radius: 63px 63px 0px 0px;
+    margin-bottom: 2px;
+}
+
+.superior_batman{
+    background-image: url("../img/bg-batman.jpg");
+}
+.superior_ww{
+    background-image: url("../img/bg-wonderw.jpg");
+}
+.superior_sman{
+    background-image: url("../img/bg-superman.jpg");
+}
+
+i#corazon{
+    color: rgb(204,36,36,1);
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+/* LOGOS */
+.logo_batman, .logo_ww, .logo_sman{
+    width:300px;
+    height:300px;
+    border-radius:150px;
+    background-size: cover;
+    position: absolute;
+    top:-150px;
+    left: 200px;
+    transition: filter 1s linear 0s;
+}
+
+.logo_batman:hover, .logo_ww:hover, .logo_sman:hover{
+    filter: grayscale(100%);
+}
+
+.logo_batman{
+    background-image: url("../img/batman.jpg");
+}
+.logo_ww{
+    background-image: url("../img/ww.jpg");
+}
+.logo_sman{
+    background-image: url("../img/sman.jpg");
+}
+
+/*CUADRO INFERIOR */
+.inferior{
+    box-shadow: 0px 2px 4px 2px rgb(197, 195, 195);
+    width: 700px;
+    background-color: rgb(243, 243, 243);
+    height: 720px;
+    position: relative;
+}
+
+.nombre_superheroe{
+    text-align: center;
+    padding-top: 160px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    font-style: normal;
+}
+
+.descripcion_superheroe{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    font-style: normal;
+    padding: 27px 38px 0px;
+    margin: 0% auto;   
+}
+
+.boton{
+    width: 300px;
+    height: 94.12px;
+    background: #00669F;
+    padding: 26px 80px;
+    border-radius: 7px;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: none;
+    position: absolute;
+    bottom: 34px;
+    right: 200px;
+    transition: background-color 0.6s ease 0s;
+}
+.boton:hover{
+    background-color: #ff7300;
+    box-shadow: 0px 2px 4px 2px rgb(219, 11, 11);
+}
+
+footer{
+    background-color: rgb(0,102,159,1);
+    text-align: center;
+    height: 122px;
+    color: white;
+    font-size: 36px;
+    font-style: normal;
+    line-height: 42px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.git{
+    color: azure;
+}
+.git:hover{
+    color: #d4b91b;
+}
