@@ -15,6 +15,6 @@ Lenguajes
 
 Autor
 
-   Daniel Steven Romero Rodríguez
-   Bogotá Colombia - 2021
-   Mail: dsromeror@unal.edu.co / dsromeror5@gmail.com
+   *Daniel Steven Romero Rodríguez
+   *Bogotá Colombia - 2021
+   *Mail: dsromeror@unal.edu.co / dsromeror5@gmail.com
