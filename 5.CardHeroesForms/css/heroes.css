@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    text-decoration: none;
+}
+/*Fondos*/
+.fondo_batman{
+    background-image: url("../img/bg-batman.jpg");
+    background-size: cover;
+}
+.fondo_ww{
+    background-image: url("../img/bg-wonderw.jpg");
+    background-size: cover;
+}
+.fondo_sm{
+    background-image: url("../img/bg-superman.jpg");
+    background-size: cover;
+}
+.fondo_harley{
+    background-image: url("../img/bg-harley.png");
+    background-size: cover;
+}
+/*Logos*/
+.logo_bat{
+    background-image: url("../img/batman.jpg");
+}
+.logo_ww{
+    background-image: url("../img/ww.jpg");
+}
+.logo_sm{
+    background-image: url("../img/sman.jpg");
+}
+.logo_harley{
+    background-image: url("../img/harley.png");
+}
+.logo_bat, .logo_ww, .logo_sm, .logo_harley{
+    width: 159px;
+    height: 159px;
+    border-radius: 80px;
+    background-size: cover;
+    position: absolute;
+    top: -98px;
+    left: 199px;
+    transition: color 1s ease 0s;
+}
+.logo_bat:hover, .logo_ww:hover, .logo_sm:hover, .logo_harley:hover{
+    filter: grayscale(100%);
+}
+/*Card principal*/
+.card_personaje{
+    width: 546px;
+    height: 456px;
+    background-color: #F3F3F3;
+    border-radius: 45px;
+    position: relative;
+    margin-top: 215px;
+    margin-bottom: 116px;
+}
+.nombre_superheroe{
+    text-align: center;
+    padding-top: 90px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37.5px;
+    font-style: normal;
+    color: #2C0187;
+    text-decoration: underline;
+}
+.descripcion_superheroe{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 19.92px;
+    font-style: normal;
+    padding: 10px 23px 0px;
+    margin: 0% auto;   
+    text-align: justify;
+}
+/*Simbolos*/
+.simbolos{
+    margin-left: 152px;
+}
+#sim{
+    width: 60px;
+    height: 60px;
+    margin-right: 33px;
+    margin-top: 10px;
+}
+#logo_carac{
+    color: rgb(204,36,36,1);
+    left: 30px;
+    top: 60px;
+    font-size: 26.25px;
+    position: absolute;
+}
+/*Botón inicio*/
+.boton{
+    width: 546px;
+    height: 87px;
+    background: #2C0187;
+    border-radius: 0px 0px 45px 45px;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+
+    color: white;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: none;  
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.boton:hover{
+    background-color: #bb1321;
+    box-shadow: 0px 2px 4px 2px rgb(219, 11, 11);
+}
