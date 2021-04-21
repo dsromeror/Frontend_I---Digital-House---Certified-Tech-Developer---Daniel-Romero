@@ -221,3 +221,9 @@ footer{
 .git:hover{
     color: #d4b91b;
 }
+.linkedin{
+    color: azure;
+}
+.linkedin:hover{
+    color: #0a0903;
+}
