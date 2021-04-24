@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <title>REGISTER</title>
+</head>
+<body>
+    <div>
+        <p id="descuentos">20% de descuento en todos los productos!</p>
+    </div>
+    <header>
+        <div class="tienda">
+            <div class="gif">
+                <a title="Los Tejos" href="./index.html"><img src="./img/logo 1.svg" alt="Home"/></a>
+            </div>
+            <div class="bienvenida">
+                <h1>Tienda Virtual Card Super Heroes</h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="contenedor_register">
+            <form action="" method="POST">
+                <p id="frase">Registro</p>
+                <div>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido" required>
+                </div>
+                <div>
+                    <input type="email" name="email" id="email" placeholder="Correo Electrónico" required>
+                </div>
+                <div>
+                    <input type="password" name="contrasenia" id="contrasenia" placeholder="Contraseña" required>
+                </div>
+                <div>
+                    <select name="pais" id="pais" required>
+                        <option disabled selected value>Pais</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Colombia">Colombia</option>
+                    </select>
+                </div>
+                <div>
+                    <div class="padre_botones">
+                        <button class="reset_register" type="reset">Resetear</button>
+                        <button class="enter_register" type="submit" onclick="alert('No está aún con el backend. Vuelva pronto')">Entrar</button>
+                    </div>
+                    <p class="account_note"><a href="login.html">¿Ya tienes cuenta? </a> Ingresar</p>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+<footer>
+    <p #id>Todos los derechos reservados a Daniel Romero <a class="git"
+            href="https://github.com/dsromeror/Frontend_I---Digital-House---Certified-Tech-Developer---Daniel-Romero"
+            title="enlace repositorio de github"><i class="fab fa-github"></i></a> <a class="linkedin" href="https://www.linkedin.com/in/dsrring/"><i class="fab fa-linkedin-in"></i></a></p>
+</footer>
+
+</html>

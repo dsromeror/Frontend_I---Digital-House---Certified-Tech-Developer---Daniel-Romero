@@ -1,0 +1,135 @@
+/* CARTAS GRANDES */
+
+main{ /* Centrar todas las cartas */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{ /* Margenes entre extremos */
+    margin-top: 5px;
+    margin-bottom: 228px;
+}
+
+.contenedor_cards{ /* Margenes entre cartas */
+    margin: 100px 0 160px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.cards{ /* Margenes entre cajas */
+    margin: 20px 30px;
+    transition: -webkit-transform 2s;
+}
+.cards:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/*CUADRO SUPERIOR*/
+.superior_batman, .superior_ww, .superior_sman, .superior_harley{
+    width: 300px;
+    height: 193px;
+    background-size: cover;
+    border-radius: 16px 16px 0px 0px;
+    margin-bottom: 2px;
+}
+
+.superior_batman{
+    background-image: url("../img/bg-batman.jpg");
+}
+.superior_ww{
+    background-image: url("../img/bg-wonderw.jpg");
+}
+.superior_sman{
+    background-image: url("../img/bg-superman.jpg");
+}
+.superior_harley{
+    background-image: url("../img/bg-harley.png");
+}
+
+i#corazon{
+    color: rgb(204,36,36,1);
+    margin-left: 21px;
+    margin-top: 15.88px;
+    font-size: 30px;
+}
+
+/* LOGOS */
+.logo_batman, .logo_ww, .logo_sman, .logo_harley{
+    width:122px;
+    height:122px;
+    border-radius:100px;
+    background-size:cover;
+    position: absolute;
+    top:-70px;
+    left: 89px;
+    transition: filter 1s linear 0s;
+}
+
+.logo_batman:hover, .logo_ww:hover, .logo_sman:hover, .logo_harley:hover{
+    filter: grayscale(100%);
+}
+
+.logo_batman{
+    background-image: url("../img/batman.jpg");
+}
+.logo_ww{
+    background-image: url("../img/ww.jpg");
+}
+.logo_sman{
+    background-image: url("../img/sman.jpg");
+}
+.logo_harley{
+    background-image: url("../img/harley.png");
+}
+
+/*CUADRO INFERIOR */
+.inferior{
+    box-shadow: 0px 2px 4px 2px rgb(197, 195, 195);
+    width: 300px;
+    background-color: rgb(243, 243, 243);
+    height: 336px;
+    position: relative;
+}
+
+.nombre_superheroe{
+    text-align: center;
+    padding-top: 74px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35.16px;
+    font-style: normal;
+}
+
+.descripcion_superheroe{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    font-style: normal;
+    padding: 10px 16px 0px;
+    margin: 0% auto;   
+    text-align: justify;
+}
+
+.boton{
+    width: 138.78px;
+    height: 48.52px;
+    background: #00669F;
+    padding: 15px 37px;
+    border-radius: 7px;
+    color: white;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: none;
+    position: absolute;
+    bottom: 18.48px;
+    right: 85px;
+    transition: background-color 0.6s ease 0s;
+}
+.boton:hover{
+    background-color: #ff7300;
+    box-shadow: 0px 2px 4px 2px rgb(219, 11, 11);
+}

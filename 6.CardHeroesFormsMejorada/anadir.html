@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <title>Añadir</title>
+</head>
+<body>
+    <div>
+        <p id="descuentos">20% de descuento en todos los productos!</p>
+    </div>
+    <header>
+        <div class="tienda">
+            <div class="gif">
+                <a title="Home" href="./index.html"><img src="./img/logo 1.svg" alt="Home"/></a>
+            </div>
+            <div class="bienvenida">
+                <h1>Tienda Virtual Card Super Heroes</h1>
+            </div>
+        </div>
+        <nav class="todos_enlaces">
+            <ul>
+                <a class="enlaces" href="contacto.html">Contacto</a>
+                <a class="enlaces" href="register.html">Registrarme</a>
+                <a class="enlaces" href="login.html">Ingresar</a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="cajaGrande">
+            <h3 id="titulo">Añadí tu super!</h3>
+            <h4 id="subtitulo">Agregá tu personaje favorito completando las opciones.</h4>
+            <form action="#" method="POST">
+                <div class="cajaizq">
+                    <label for="nombre">*Nombre</label>
+                    <input class="inp"  type="text" name="nombre" id="nombre" minlength="5" maxlength="30" required>               
+                    <label for="fecha">Fecha</label>
+                    <input class="inp" type="date" name="fecha" id="fecha" value="dd/mm/aaaa" min="1990-01-01"  required>
+                    <textarea id="descrip" name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Descripción"></textarea>
+                </div>
+                <div class="cajader">
+                    <label for="">*Especie</label>
+                    <select class="inp" name="especie" id="especie" required>
+                        <option disabled selected value>Especie</option>
+                        <option value="Unkown">Unkown</option>
+                        <option value="Aliens">Aliens</option>
+                        <option value="Terricola">Terricola</option>
+                        <option value="Mutante">Mutantes</option>
+                        <option value="Mago">Mago</option>
+                    </select>
+                    <label for="foto">Agregar Foto </label>
+                    <input class="block" id="foto" type="file" name="foto" accept=".jpg,.png" placeholder="Seleccionar archivo" multiple>
+                    <p id="poderes">Poderes</p>
+                    <div class="block">
+                        <input class="checkbox" type="checkbox" name="volar">
+                    <label for="volar">Volar</label>
+                    </div>
+                    <div class="block">
+                        <input class="checkbox" type="checkbox" name="SuperInteligencia">
+                        <label for="SuperInteligencia">SuperInteligencia</label>
+                    </div>
+                    <div class="block"> 
+                        <input class="checkbox" type="checkbox" name="VistaRayoLaser">
+                        <label for="VistaRayoLaser">Vista de rayo láser</label>
+                    </div>
+                    <div class="block">
+                        <input class="checkbox" type="checkbox" name="billeteraGorda">
+                        <label for="billeteraGorda">Billetera Gorda</label>
+                    </div>
+                    <hr id="lineadiv">
+                    <p id="tipop">Tipo de personaje</p>
+                    <div class="block">
+                        <input class="radioboton" type="radio" name="tipopersonaje" id="tipopersonaje">
+                        <label for="heroe"> Héroe / Heroína</label>
+                    </div>
+                    <div class="block">
+                        <input class="radioboton" type="radio" name="tipopersonaje" id="tipopersonaje">
+                        <label for="villano">Villano / Villana</label>
+                    </div>
+                </div>
+                <input class="botonanadir" type="submit" value="Añadir">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+<footer>
+    <p #id>Todos los derechos reservados a Daniel Romero <a class="git"
+            href="https://github.com/dsromeror/Frontend_I---Digital-House---Certified-Tech-Developer---Daniel-Romero"
+            title="enlace repositorio de github"><i class="fab fa-github"></i></a> <a class="linkedin" href="https://www.linkedin.com/in/dsrring/"><i class="fab fa-linkedin-in"></i></a></p>
+</footer>
+</html>

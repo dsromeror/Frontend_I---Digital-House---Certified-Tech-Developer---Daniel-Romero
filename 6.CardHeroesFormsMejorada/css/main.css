@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+
+/* Descuentos */
+#descuentos{
+    background-color: rgb(28,209,176,1);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 56px;
+    font-style: normal;
+    height: 23px;
+    padding-top: 2px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.gif{
+    display: inline-block;
+}
+.tienda{
+    background-color: rgb(0,102,159,1);
+    color: #FFFFFF;
+    font-weight: 400;
+    display:flex;
+    align-items: center;
+    height: 80px;
+    font-size: 30px;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.bienvenida{
+    display: inline-block;
+    vertical-align: middle;
+}
+.todos_enlaces{
+    height: 40px;
+    background-color: #001D2D;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+.enlaces{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    font-style: normal;
+    color: white;
+    padding-right: 20px;
+    text-align: right;
+    text-decoration: none;
+}
+main{ /* Centrar todas las cartas */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#frase{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    top: 229px;
+    left: 410px;
+    padding-bottom: 55px;
+    color: #333333;
+}
+
+input, select, option, textarea{
+    width: 100%;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1.53407px solid #000000;
+    margin-bottom: 20px;
+    padding-left: 29px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #333333;
+}
+
+/* LOGIN*/
+.contenedor_login{
+    width: 620px;
+    height: 505px;
+    margin-top: 150px;
+    margin-bottom: 30px; 
+}
+
+/*REGISTER*/
+.contenedor_register{
+    width: 620px;
+    height: 605px;
+    margin-top: 150px;
+    margin-bottom: 30px; 
+}
+
+/*CONTACT*/
+
+.contenedor_contacto{
+    width: 620px;
+    height: 705px;
+    margin-top: 80px;
+    margin-bottom: 30px; 
+}
+
+textarea{
+    height: 251px;
+}
+
+.enter_login{
+    margin: 39px 0 21px;
+    width: 100%;
+    height: 53.79px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    background: #1CD1B0;
+    border-radius: 23.011px;
+    border: none;
+    text-align: center;
+}
+
+.account_note{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 27px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Botones*/
+.button_login{
+    margin: 39px 0 21px;
+    width: 100%;
+    height: 53.79px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    background: #1CD1B0;
+    border-radius: 23.011px;
+    border: none;
+    text-align: center;
+}
+.button_login:hover{
+    background-color: #00669F;
+}
+.padre_button{
+    display: flex;
+    justify-content: space-between;
+}
+.enter_register, .reset_register{
+    width: 48%;
+    height: 53.79px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    margin: 30px 5px 21px;
+    border-radius: 23.011px;
+    border: none;
+    text-align: center;
+}
+.reset_register{
+    background: #888888;
+}
+.reset_register:hover{
+    background-color: #00669F;
+}
+.enter_register{
+    background: #1CD1B0;
+}
+.enter_register:hover{
+    background-color: #00669F;
+}
+/*Icono Plus*/
+.more{
+    color: #00669F;
+    position: fixed;
+    font-size: 50px;
+    right: 10px;
+    top: 517px;
+    transition: color 0.6s ease 0s;
+}
+.more:hover{
+    color: #001D2D;
+}
+
+/*Añadir*/
+#titulo{
+    font-size: 40px;
+    line-height: 72px;
+    text-align: center;
+}
+#subtitulo{
+    font-size: 20px;
+    line-height: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.cajaGrande{
+    width: 954px;
+    height: 832px;
+    background-color: #00669F;
+    margin: 40px 243px 39px 243px;
+    border-radius: 49px;
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 24.2px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+.cajaizq{
+    width: 343px;
+    height: 576px;
+    position: relative;
+    margin: 20px 23px 30px 123px;
+    box-sizing:border-box;
+    display: inline-block;
+}
+.cajader{
+    width: 343px;
+    height: 576px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+input.checkbox{
+    width: 24px;
+    height: 20px;
+    margin-right: 20px;
+    margin-bottom: 13px;
+}
+.block{
+    display: block;
+}
+.inp{
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+#descrip{
+    border-radius: 15px;
+    width: 343px;
+    height: 307px;
+}
+#lineadiv{
+    margin-top: 21px;
+    margin-bottom: 21px;
+    color: #CCCCCC;
+}
+#tipop{
+    margin-bottom: 12px;
+    line-height: 25.5px;
+}
+#poderes{
+    margin-bottom: 14px;
+    line-height: 25.5px;
+}
+input.radioboton{
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.botonanadir{
+    width: 466px;
+    height: 87px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+    background-color: #1CD1B0;
+    border-radius: 23px;
+    margin-left: 244px;
+    margin-bottom: 18px;
+}
+.botonanadir:hover{
+    background-color: #001D2D;
+    color: #FFFFFF;
+}
+#foto{
+    width: 223px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: #CECECE;
+    margin-top: 40px;
+    margin-bottom: 46px;
+    position: relative;
+    font-size: 12px;
+}
+/*Footer*/
+footer{
+    background-color: rgb(0,102,159,1);
+    text-align: center;
+    height: 61px;
+    color: white;
+    font-size: 36px;
+    font-style: normal;
+    line-height: 42px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.git{
+    color: azure;
+}
+.git:hover{
+    color: #d4b91b;
+}
+.linkedin{
+    color: azure;
+}
+.linkedin:hover{
+    color: #0a0903;
+}
