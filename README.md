@@ -5,6 +5,7 @@ Proyectos curso Frontend I - Digital-House - Certified-Tech-Developer - Daniel R
 3. *Mejora de Receta:* Se mejora la pagina de receta, estableciendole una imagen como fondo, cambiandole el estilo del texto(Tipografía) y agragandole logotipos. Link: [Receta (Fondos, logos y tipografía)](https://dsromeror.github.io/Frontend_I---Digital-House---Certified-Tech-Developer---Daniel-Romero/3.FondosYLogos/).
 4. *Cartas de Super Heroes:* Página con cartas infográficas de super heroes, se implementa modelos de cajas, z-index y los distintos posicionamientos para su realización. Link: [Cartas Super Heroes](https://dsromeror.github.io/Frontend_I---Digital-House---Certified-Tech-Developer---Daniel-Romero/4.CardHeroes/).
 5. *Cartas de Super Heroes con formularios:* Se actualiza la página con cartas infográficas con formularios de ingreso, registro y contacto. Link: [Cartas Super Heroes Forms](https://dsromeror.github.io/Frontend_I---Digital-House---Certified-Tech-Developer---Daniel-Romero/5.CardHeroesForms/).
+6. *Cartas de Super Heroes con formularios y pseudoselectores:* Se actualiza la página con el formulario para agregar. Link: [Cartas Super Heroes Forms Mejorado] (https://dsromeror.github.io/Frontend_I---Digital-House---Certified-Tech-Developer---Daniel-Romero/6.CardHeroesFormsMejorada/).
 
 
 
