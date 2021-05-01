@@ -7,6 +7,7 @@ Proyectos curso Frontend I - Digital-House - Certified-Tech-Developer - Daniel R
 5. *Cartas de Super Heroes con formularios:* Se actualiza la página con cartas infográficas con formularios de ingreso, registro y contacto. Link: [Cartas Super Heroes Forms](https://dsromeror.github.io/Frontend_I---Digital-House---Certified-Tech-Developer---Daniel-Romero/5.CardHeroesForms/).
 6. *Cartas de Super Heroes con formularios y pseudoselectores:* Se actualiza la página con el formulario para agregar. Link: [Cartas Super Heroes Forms Mejorado] (https://dsromeror.github.io/Frontend_I---Digital-House---Certified-Tech-Developer---Daniel-Romero/6.CardHeroesFormsMejorada/).
 7. *Animaciones:* Actividad de animaciones. Link: [Animaciones](https://dsromeror.github.io/Frontend_I---Digital-House---Certified-Tech-Developer---Daniel-Romero/7.Animation/).
+8. *Responsive:* Actividad responsive Mobile last. Link: [Responsive](https://dsromeror.github.io/Frontend_I---Digital-House---Certified-Tech-Developer---Daniel-Romero/8.Responsive/).
 
 
 
