@@ -31,6 +31,7 @@ header {
 header nav ul {
   display: flex;
   gap: 13px;
+  list-style-type: none;
   /*Añadimos flex*/
 }
 
@@ -144,6 +145,7 @@ footer ul {
   flex-direction: column;
   align-content: space-between;
   gap : 12px;
+  list-style-type: none;
   /*Añadimos flex*/
 }
 
