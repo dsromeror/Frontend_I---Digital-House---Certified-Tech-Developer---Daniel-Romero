@@ -9,6 +9,8 @@ Proyectos curso Frontend I - Digital-House - Certified-Tech-Developer - Daniel R
 7. *Animaciones:* Actividad de animaciones. Link: [Animaciones](https://dsromeror.github.io/Frontend_I---Digital-House---Certified-Tech-Developer---Daniel-Romero/7.Animation/).
 8. *Responsive:* Actividad responsive Mobile last. Link: [Responsive](https://dsromeror.github.io/Frontend_I---Digital-House---Certified-Tech-Developer---Daniel-Romero/8.Responsive/).
 9. *Flex:* Actividad de contenedores flex. Link: [Flex](https://dsromeror.github.io/Frontend_I---Digital-House---Certified-Tech-Developer---Daniel-Romero/9.Flex/).
+10. *Simulacro Examen:* Simulacro previo al examen. Link: [Simulacro](https://dsromeror.github.io/Frontend_I---Digital-House---Certified-Tech-Developer---Daniel-Romero/10.SimulacroExamen/).
+11. *Examen:* Examen final. Link: [Examen](https://dsromeror.github.io/Frontend_I---Digital-House---Certified-Tech-Developer---Daniel-Romero/11.Examen/).
 
 
 **Lenguajes**
