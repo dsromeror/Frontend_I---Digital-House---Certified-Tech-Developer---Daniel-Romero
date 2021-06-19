@@ -11,7 +11,7 @@ Proyectos curso Frontend I - Digital-House - Certified-Tech-Developer - Daniel R
 9. *Flex:* Actividad de contenedores flex. Link: [Flex](https://dsromeror.github.io/Frontend_I---Digital-House---Certified-Tech-Developer---Daniel-Romero/9.Flex/).
 10. *Simulacro Examen:* Simulacro previo al examen. Link: [Simulacro](https://dsromeror.github.io/Frontend_I---Digital-House---Certified-Tech-Developer---Daniel-Romero/10.SimulacroExamen/).
 11. *Examen:* Examen final. Link: [Examen](https://dsromeror.github.io/Frontend_I---Digital-House---Certified-Tech-Developer---Daniel-Romero/11.Examen/).
-
+12. *InstaFront: Actividad con grid. Link: [InstaFront](https://dsromeror.github.io/Frontend_I---Digital-House---Certified-Tech-Developer---Daniel-Romero/12.InstaFront/).
 
 **Lenguajes**
 
