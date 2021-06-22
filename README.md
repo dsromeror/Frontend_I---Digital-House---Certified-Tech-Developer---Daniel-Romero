@@ -12,6 +12,8 @@ Proyectos curso Frontend I - Digital-House - Certified-Tech-Developer - Daniel R
 10. *Simulacro Examen:* Simulacro previo al examen. Link: [Simulacro](https://dsromeror.github.io/Frontend_I---Digital-House---Certified-Tech-Developer---Daniel-Romero/10.SimulacroExamen/).
 11. *Examen:* Examen final. Link: [Examen](https://dsromeror.github.io/Frontend_I---Digital-House---Certified-Tech-Developer---Daniel-Romero/11.Examen/).
 12. *InstaFront:* Actividad con grid. Link: [InstaFront](https://dsromeror.github.io/Frontend_I---Digital-House---Certified-Tech-Developer---Daniel-Romero/12.InstaFront/).
+13. *BatmanCV (Sass):* 
+14. *Ejercicio extra:* Actividad extra. Link: [Extra](https://dsromeror.github.io/Frontend_I---Digital-House---Certified-Tech-Developer---Daniel-Romero/14.EjercicioExtra/).
 
 **Lenguajes**
 
