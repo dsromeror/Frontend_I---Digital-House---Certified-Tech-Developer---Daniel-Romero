@@ -6,6 +6,15 @@
     padding: 0;
     font-family: "Roboto", sans-serif;
 }
+
+:root {
+    --primario: #222222;
+    --secundario: #FFFFFF;
+    --fondo: #E51A73;
+    --textoTarjetas: #C00A27;
+    --textoFooter: #515486;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -15,12 +24,12 @@ header nav{
     display: none;
 }
 .logo{
-    background-color: #E51A73;
-    color: #FFFFFF;
+    background-color: var(--fondo);
+    color: var(--secundario);
     border-radius: 20px;
     width: 135px;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 0.75rem;
     padding: 18px 51px;
     margin: 17px 130px 21px 17px;
 }
@@ -36,7 +45,7 @@ header nav{
     position: relative;
     margin-bottom: 42px;
     background-size: cover;
-    color: #fff;
+    color: var(--secundario);
     display: flex;
     align-items: center;
     height: 188px;
@@ -48,18 +57,18 @@ header nav{
     position: absolute;
     top: 36px;
     right: 51px;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 400;
-    color: #222222;
+    color: var(--primario);
 }
 .titulo2{
     position: absolute;
     top: 64px;
     width: 254px;
     right: 0;
-    font-size: 17.5px;
+    font-size: 1.1rem;
     font-weight: 600;
-    color: #222222;
+    color: var(--primario);
 }
 .titulo3{
     position: absolute;
@@ -67,10 +76,10 @@ header nav{
     width: 200px;
     height: 25px;
     right: 25px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    background-color: #E51A73;
-    color: #FFFFFF;
+    background-color: var(--fondo);
+    color: var(--secundario);
     text-align: center;
 }
 .boton-comprar{
@@ -79,16 +88,16 @@ header nav{
     position: absolute;
     bottom: 36px;
     right: 82px;
-    font-size: 10px;
+    font-size: 0.625px;
     font-weight: 400;
     text-align: center;
     border: 1px solid black;
     padding: 1px;
-    color:#222222;
+    color:var(--primario);
 }
 .boton-comprar a:hover, a:link, a:active, a:visi{
     text-decoration: none;
-    color: #222222;
+    color: var(--primario);
 }
 .contenedorTarjetas{ 
     display: flex;
@@ -108,24 +117,24 @@ header nav{
 }
 .textoTarjeta1{
     top: 47px;
-    color: #C00A27;
-    font-size: 16px;
+    color: var(--textoTarjetas);
+    font-size: 1rem;
     font-weight: 400;
 }
 .textoTarjeta2{
     top: 76px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 .textoTarjeta3{
     top: 134px;
 }
 .textoTarjeta3 a:before, a:link, a:visited{
-    color: #C00A27;
+    color: var(--textoTarjetas);
     text-decoration: underline;
 }
-h2{
-    font-size: 30px;
+.destacados{
+    font-size: 1.875rem;
     font-weight: 500;
     text-decoration: underline;
     text-align: center;
@@ -142,9 +151,8 @@ h2{
     width: 100%;
     text-align: center;
 }
-#comprados{
-    font-size: 16px;
-    font-weight: 500;
+.comprados h2{
+    font-size: 1rem;
     padding: 12px 15px;
     background-color: #FFEB28;
     width: 150px;
@@ -178,22 +186,22 @@ h2{
     text-align:center;
     padding-top: 2.5px;
     position: absolute;
-    font-size: 7px;
+    font-size: 0.4375rem;
     font-weight: 500;
-    color: #FFFFFF;
+    color: var(--secundario);
     background-color: #C92C2C;
     border-radius: 5px;
 }
-.contenedorRameras h4{
-    font-size: 16px;
+.contenedorRameras h4, h5{
+    font-size: 1rem;
     font-weight: 600;
-    color: #222222;
+}
+.contenedorRameras h4{
     margin-bottom: 10px;
+    color: var(--primario);
 }
 .contenedorRameras h5{
-    color: #E51A73;
-    font-size: 16px;
-    font-weight: 600;
+    color: var(--fondo);
 }
 footer{
     display: flex;
@@ -206,13 +214,13 @@ footer{
 }
 
 .contenedorTexto h2{
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: 500;
     text-decoration: none;
     margin: 0px 0px 31px 0px;
 }
 .contenedorTexto h3{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     margin-bottom: 31px;
     margin-left: 59px;
@@ -225,53 +233,52 @@ footer{
 }
 .formulario{
     display: flex;
-    background-color: #FCFCFC;
+    background-color: var(--secundario);
     width: 82%;
     height: 57%;
     margin-left: 9%;
     margin-bottom: 29px;
 }
-#formulario{
-    font-size: 24px;
+.formulario form p{
+    font-size: 1.5rem;
     font-weight: 700;
-    color: #515486;
+    color: var(--textoFooter);
     margin: 17px 156px 35px 45px;
 }
-#nombre, #email{
-    width: 255px;
-    height: 45px;
+#nombre, #email, #mensaje{
     background-color: #F6F7F9;
-    color: #515486;
-    margin: 0px 41px 15px 41px;
+    color: var(--textoFooter);
     border-radius: 12px;
+    width: 255px;
+    margin: 0px 41px 15px 41px;
+}
+
+#nombre, #email{
+    height: 45px;
     padding-left: 10px;
 }
 #mensaje{
-    width: 255px;
     height: 99px;
-    margin: 0px 41px 15px 41px;
     padding: 15px 160px 69px 10px;
-    background-color: #F6F7F9;
-    border-radius: 12px;
-    color: #515486;
 }
 .botones{
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 17px;
 }
 .reset_register, .enter_register{
     width: 110px;
     height: 40px;
     border-radius: 12px;
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: 700;
-    color: #FFFFFF;
+    color: var(--secundario);
 }
 .reset_register{
-    background-color: #222222;
+    background-color: var(--primario);
 }
 .enter_register{
-    background-color: #E51A73;
+    background-color: var(--fondo);
 }
 .creditos{
     display: none;
@@ -290,7 +297,7 @@ footer{
     }
     header nav ul a:link, a:visited{
         text-decoration: none;
-        color: #222222;
+        color: var(--primario);
     }
     #kangrebur{
         display: none;
@@ -301,12 +308,12 @@ footer{
     .titulo1{
         top: 201px;
         right: 201px;
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     .titulo2{
         top: 244px;
         right: 102px;
-        font-size: 30px;
+        font-size: 1.875rem;
         width: 420px;
         height: 35px;
         line-height: 35.19px;
@@ -315,7 +322,7 @@ footer{
     .titulo3{
         top: 299px;
         right: 152px;
-        font-size: 20px;
+        font-size: 1.25rem;
         width: 300px;
         height: 40px;
         padding: 5px;
@@ -323,7 +330,7 @@ footer{
     .boton-comprar{
         bottom: 201px;
         right: 227px;
-        font-size: 20px;
+        font-size: 1.25rem;
         width: 150px;
         height: 40px;
         padding: 5px;
@@ -343,7 +350,7 @@ footer{
         position: relative;
         margin-bottom: 60px;
         background-size: cover;
-        color: #fff;
+        color: var(--secundario);
         display: flex;
         align-items: center;
         height: 680px;
@@ -388,14 +395,14 @@ footer{
     .rectangulo p{
         display: flex;
         align-items: center;
-        color: #515486;
-        font-size: 24px;
+        color: var(--textoFooter);
+        font-size: 1.5rem;
         font-weight: 700;
     }
     .cuadro{
         width: 60px;
         height: 5px;
-        background-color: #FFFFFF;
+        background-color: var(--secundario);
         position: absolute;
         margin-top: 199px;
         margin-right: 275px;
@@ -403,13 +410,10 @@ footer{
     .creditos{
         display: block;
         width: 100%;
-        background-color: #FFFFFF;
+        background-color: var(--secundario);
         text-align: center;
     }
-    .git:hover{
-        color:#C00A27;
-    }
-    .linkedin:hover{
-        color: #0e76a8;
+    .git:hover, .linkedin:hover{
+        color:var(--fondo);
     }
 }
